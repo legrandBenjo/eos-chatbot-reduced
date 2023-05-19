@@ -28,7 +28,6 @@ function EosChatBot() {
   return (
     <div>
       <SearchBar onSearch={handleSearch} />
-
       {searchResults.map((result, index) => (
         <div key={index}>
           <a href={result.completion}>{result.completion}</a>
