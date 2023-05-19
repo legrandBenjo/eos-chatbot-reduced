@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/eos-chatbot-reduced/static/css/main.b86a4307.css",
+    "main.js": "/eos-chatbot-reduced/static/js/main.12932c7b.js",
+    "static/js/787.4f373d78.chunk.js": "/eos-chatbot-reduced/static/js/787.4f373d78.chunk.js",
+    "static/media/EOS_Chatbot_test_reduced.csv": "/eos-chatbot-reduced/static/media/EOS_Chatbot_test_reduced.4862548774bb2192174d.csv",
+    "index.html": "/eos-chatbot-reduced/index.html",
+    "main.b86a4307.css.map": "/eos-chatbot-reduced/static/css/main.b86a4307.css.map",
+    "main.12932c7b.js.map": "/eos-chatbot-reduced/static/js/main.12932c7b.js.map",
+    "787.4f373d78.chunk.js.map": "/eos-chatbot-reduced/static/js/787.4f373d78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b86a4307.css",
+    "static/js/main.12932c7b.js"
+  ]
+}
