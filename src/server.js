@@ -4,7 +4,7 @@ const path = require('path');
 const cors = require('cors');
 
 const app = express();
-app.use(cors()); // Ajoutez cette ligne pour activer le middleware cors
+app.use(cors()); // cette ligne permet d'activer le middleware cors
 
 const searchDirectory = (directoryPath, fileName) => {
   const results = [];
@@ -32,7 +32,7 @@ const searchDirectory = (directoryPath, fileName) => {
 
 
 app.get('/search', (req, res) => {
-  const directoryPath = '/Users/mac/Documents/plaidoiries'; // Remplacez par le chemin de votre répertoire
+  const directoryPath = 'G:/your_directory_path'; // Remplace ici par le chemin principal qui contient tes 1000 sous-dossiers
   const fileName = req.query.fileName;
   const searchResults = searchDirectory(directoryPath, fileName).filter(result =>
     result.toLowerCase().includes(fileName)
